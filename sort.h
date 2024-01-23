@@ -40,4 +40,5 @@ void print_list(const listint_t *list);
 /* Sorting algoritms */
 void bubble_sort(int *array, size_t size);
 void swap_ints(int *a, int *b);
+void insertion_sort_list(listint_t **list);
 #endif
